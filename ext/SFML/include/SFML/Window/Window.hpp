@@ -150,7 +150,7 @@ public:
     void create(WindowHandle handle, const ContextSettings& settings = ContextSettings());
 
     ////////////////////////////////////////////////////////////
-    /// \brief Close the window and destroy all the attached resources
+    /// \brief Close the window and close all the attached resources
     ///
     /// After calling this function, the sf::Window instance remains
     /// valid and you can call create() to recreate the window.

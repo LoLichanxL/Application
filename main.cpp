@@ -1,6 +1,8 @@
 ﻿#include <Game.hpp>
 
-int main()
-{
-
+int main(){
+    pb::Game game;
+    while(!game.getWindow()->isDone()){
+        game.render();
+    }
 }
