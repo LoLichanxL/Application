@@ -4,7 +4,7 @@
 #include <chrono>
 
 namespace pb{
-    Game::Game() : m_window(new pb::Window("Game", sf::Vector2u(800, 600))), m_snake(24), m_world(sf::Vector2u(800, 600)){
+    Game::Game() : m_window(new pb::Window("Game", sf::Vector2u(1200, 840))), m_snake(24), m_world(sf::Vector2u(1200, 840)){
 
     }
 
