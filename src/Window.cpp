@@ -75,4 +75,8 @@ void pb::Window::create() {
     m_window->setFramerateLimit(120);
 }
 
+sf::RenderWindow* pb::Window::getRenderWindow() {
+    return m_window;
+}
+
 

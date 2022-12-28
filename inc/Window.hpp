@@ -21,7 +21,7 @@ namespace pb {
         bool isFullscreen();
 
         sf::Vector2u getWindowSize();
-
+        sf::RenderWindow* getRenderWindow();
         void toggleFullscreen();
 
         void draw(sf::Drawable &l_drawable);

@@ -20,7 +20,7 @@ link_directories("ext/SFML/lib/")
 add_executable("${PROJECT_NAME}" main.cpp
         inc/Game.hpp src/Game.cpp
 	inc/Window.hpp src/Window.cpp
-	inc/Utils.hpp src/Utils.cpp)
+		inc/Direction.hpp src/Direction.cpp inc/Snake.hpp src/Snake.cpp src/World.cpp inc/World.hpp src/SnakeSegment.cpp inc/SnakeSegment.hpp inc/TextBox.hpp src/TextBox.cpp)
 											
 target_link_libraries("${PROJECT_NAME}" sfml-graphics-s-d
 						  sfml-window-s-d
@@ -36,5 +36,3 @@ target_link_libraries("${PROJECT_NAME}" sfml-graphics-s-d
 						  vorbisfile
 						  vorbis
 						  ogg)
-						  
-file(COPY "assets" DESTINATION "/")
