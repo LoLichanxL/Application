@@ -10,7 +10,7 @@ public:
     void respawnApple();
     void update(Snake* l_player);
     int getBlockSize();
-
+    void generateBounds();
 private:
     sf::Vector2u m_screenSize;
     sf::Vector2i m_item;
@@ -18,6 +18,6 @@ private:
 
     sf::CircleShape m_appleShape;
     sf::RectangleShape m_bounds[4];
-
+    sf::RectangleShape m_random_bounds[15];
 
 };
